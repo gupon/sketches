@@ -21,7 +21,7 @@ function draw() {
             65 + i * ((1 - i / step) * 25 + 66),
             pow((1 - i / step), 2) * 1.7);
     }
-    saveCanvas("circle-circle-2.png");
+    // saveCanvas("circle-circle-2.png");
 }
 
 function drawCircle(radius, radiusScale = 1) {
